@@ -1,0 +1,15 @@
+# some information about you
+name: "Sahil Unagar"
+nickname: "Sahil"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/sahil.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "sahilunagar99@gmail.com"
+  phone: "+919724614793"
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I love programming

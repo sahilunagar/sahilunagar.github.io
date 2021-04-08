@@ -1,0 +1,27 @@
+section:
+  name: Education
+  id: education
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+degrees:
+- institution:
+    name: Sardar Vallabhbhai National Institute of Technology (NIT, Surat)
+    url: http://svnit.ac.in
+  timeframe: 2016-21
+  name: 5-year Integrated M.Sc. in Applied Mathematics
+  grade:
+    scale: CGPA
+    achieved: 8.71
+    outOf: 10
+
+- institution:
+    name: RSM Punavala Sarvajanik Experimental School, Surat
+  timeframe: 2014-16
+  name: GHSEB 12th board
+  grade:
+    scale: Percentage
+    achieved: 83
+    outOf: 100
+

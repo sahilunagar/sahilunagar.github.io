@@ -1,0 +1,16 @@
+---
+title: "Deep Learning for Image Classification"
+date: 2020-06-08T08:06:25+06:00
+description: Introduction to Sample Post
+menu:
+  sidebar:
+    name: Deep Learning
+    identifier: depp_learning
+    weight: 10
+---
+
+This post covers what Deep Learning, Image Classification and Convolutional Neural Networks are:
+
+- In the era of Big data where Deep Learning algorithms can extract patterns from data that even human cannot find, there are problems in which even these algorithms tend to perform worse than expectations. I worked on a Computer Vision problem, in which the aim was to build and analyse a Deep Learning model for image identification. One of the simplest ways to do this is to convert images into an array of pixels and feed them to the standard neural network, but a standard neural network can hardly learn patterns from flattened images, so I moved to Convolution Neural Network. The first problem I faced was the imbalanced dataset, there were over 400 images in one category and less than 100 images in the other. To overcome this problem, I used data balancing using sampling methods. Another problem was the small dataset, Deep Learning algorithms can only work better for large dataset to generalize the patterns. I used a data augmentation technique to increase the size of the dataset. To build the model, I used different pre-trained networks, tried unfreezing the last few layers and trained the model with different optimizers and learning rates.
+- Image classification is a task to classify images into categories based on its features. Image classification came into existence for decreasing the gap between computer vision and human vision by training the computer with data. Deep Learning models can learn the features from training examples given to it. Deep Learning is a subset of Machine Learning which uses gradient descent and backpropagation algorithms to extract the patterns from the training dataset. A large number of images taken as the training dataset resized to the equal size and converted into matrices of pixels which to be fed to the Deep neural network. For the Computer Vision problem like image classification, Convolutional Neural Network model works better than the standard neural network by sharing weights using the convolution method in order to decrease the training time of the model.
+- A Convolutional Neural Network(CNN) is a Deep Learning algorithm which takes an image as an input, assign weights to the particular features of the images and be able to differentiate one from the other. CNN works on matrices as input instead of vectors in a standard neural network. CNNs work on the concepts called parameters sharing and local connectivity. Parameters sharing is sharing of weights by neurons in hidden convolution layers. Local connectivity refers to the fact that each neuron connected to only a subset of the input. The error between actual and predicted class is calculated using loss function defined in the CNN model and weights of the hidden convolutional layers are updates using the optimization function used during training of the model.

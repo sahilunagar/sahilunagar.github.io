@@ -1,0 +1,53 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+
+# your projects
+projects:
+- name: URL Shortener - web application
+  # logo: /images/sections/projects/kubernetes.png
+  # role: Contributor
+  # timeline: "March 2018 - Present"
+  repo: https://github.com/sahilunagar/click.me # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: A Java based Webapp that let’s you generate short URL from a Long URL. It allows user to set their own custom short URL as well.
+  tags: ["Java", "Spring boot", "Hibernate", "MySQL", "Intellij IDEA"]
+
+- name: Text utils - web application
+  repo: https://github.com/sahilunagar/Django-TextUtils
+  summary: A simple text analyzer website to test the functionalities of Django.
+  tags: ["Python", "Django", "HTML", "CSS"]
+
+- name: Number Plate Recognition
+  # logo: /images/sections/projects/tensorflow.png
+  # role: Developer
+  # timeline: "Jun 2018 - Present"
+  repo: https://github.com/sahilunagar/Licence-plate-detection
+  #url: ""
+  summary: A system which can detect multiple number plates from the live video feed of a traffic, and can also recognise registration number from detected number plate
+  tags: ["Python3", "Keras","YOLOv2", "OCR", "Jupyter Notebook", "Google Colab"]
+
+# - name: Toha
+#   logo: /images/sections/projects/toha.png
+#   role: Owner
+#   timeline: "Jun 2019 - Present"
+#   repo: https://github.com/hossainemruz/toha
+#   summary: A Hugo theme for personal portfolio.
+#   tags: ["hobby","hugo","theme","professional"]
