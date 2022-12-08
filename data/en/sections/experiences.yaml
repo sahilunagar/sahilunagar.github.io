@@ -11,21 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Central University of Tamil Nadu, India
+    name: Oracle Financial Services Software
     # url: "https://www.example.com"
-    location: Tamil Nadu
+    location: Bangalore, India
     # company overview
     # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Summer Research Fellowship
+  - designation: Staff Consultant
     start: May 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    end: July 2019
+    # end: July 2019
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Built and analysed Convolutional Neural Network model for image classification on the dataset of cartoon characters having 42 different classes with highly imbalanced distribution
-    - Accessed the effect of balancing techniques like Under/Over sampling, class-weighted learning while using transfer learning on pretrained architectures (ResNet and VGG19)
-    - Got 75% accuracy on the test dataset and ranked 26th position on leaderboard
+    - I am working with a team on a FLEXCUBE upgrade project, where we are building product extesnsions and data migration scripts.
+    - I am writing PL/SQL scripts to migrate data from older version of FLEXCUBE to the latest version and new product processors as part of the upgrade.
+    - Technologies used- Java, PL/SQL, Microservices, REST APIs
 
 # - company:
 #     name: PreExample Co.

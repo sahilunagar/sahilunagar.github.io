@@ -14,12 +14,12 @@ skills:
 - name: Programming
   icon: "/images/sections/skills/coding.png"
   summary: "Capable of implementing complex algorithms in C++ and Python, and working knowledge in Java"
-  url: "https://kubernetes.io/"
+  #url: "https://kubernetes.io/"
 
 - name: Web Development
   icon: "/images/sections/skills/cloud.png"
-  summary: "Workend on projects involving technologies like Django, Spring-boot, Hybernate, MySQL, GIT"
-  url: "https://golang.org/"
+  summary: "Built projects using technologies like Django, Spring-boot, Hybernate, MySQL, GIT"
+  #url: "https://golang.org/"
 
 - name: Machine Learning
   icon: "/images/sections/skills/machine-learning.png"

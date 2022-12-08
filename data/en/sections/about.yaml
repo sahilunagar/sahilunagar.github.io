@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: M.Sc. Mathematics student
+designation: Developer
 # your company information
 # company:
 #   name: Example Co.
@@ -18,9 +18,9 @@ designation: M.Sc. Mathematics student
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am highly motivated student of Mathematics with experience in research
-and development. I am interested in Competitive Programming and Machine Learning. Solving complex problems using
-computational methods and reading books is what I like to do.'
+summary: 'Staff Consultant at Oracle with 1.5 years of experience in development and SQL. 
+Built multiple personal projects using Java/Spring Boot and Python/Django frameworks. 
+I am great at problem solving, interested in Competitive Programming and Machine Learning.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
